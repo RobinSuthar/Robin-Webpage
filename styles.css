@@ -1,0 +1,76 @@
+/* This Section Inculdes all the coding for the Navigation Bar */
+.nav-bar{
+    display: grid;
+    justify-content: center;
+    justify-content: space-evenly;
+    grid-template-rows: 100px;
+    grid-template-columns:  0fr  0fr 0fr 0fr 0fr ;
+}
+
+.nav-bar img{
+    height: 130px;
+    width: 130px;
+    background-color: white;
+
+}
+.nav-bar:hover{
+    cursor: pointer;
+}
+
+.description{
+    display: grid;
+    height: 30vh;
+    margin: 150px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: xx-large;
+    margin: 0px 0px 0px 0px !important;
+}
+
+.underneathheading{
+    font-size: medium;
+    margin: 0px 0px 0px 0px !important;
+}
+
+h1{
+    margin: 0px 0px 0px 0px;
+}
+
+.Robin{
+    color: salmon;
+    text-shadow: 1px 1px #FF0000;
+}
+.Robin:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h3{
+    margin: 0px 0px 70px 0px;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+button{
+    margin: 25px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    border-radius: 20px;
+}
+
+button p{
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: salmon;
+    cursor: pointer;
+}
