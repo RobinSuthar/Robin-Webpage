@@ -77,12 +77,11 @@ button:hover{
 
 @media (max-width:900px)
 {
-     .nav-bar{
+      .nav-bar{
         display: grid;
-        grid-template-rows: 150px;
-        grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns:  1fr 1fr 1fr;
         justify-content: center;
-        margin-bottom: 50px;
     }
 
      .description{
