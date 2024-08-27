@@ -83,5 +83,10 @@ button:hover{
         grid-template-columns:  1fr 1fr 1fr;
         justify-content: center;
     }
+
+     .description{
+        margin: 0px;
+    }
+
     
 }
