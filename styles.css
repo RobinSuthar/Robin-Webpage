@@ -74,3 +74,8 @@ button:hover{
     background-color: salmon;
     cursor: pointer;
 }
+
+@media (max-width:900px)
+{
+    
+}
