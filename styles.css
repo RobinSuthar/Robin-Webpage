@@ -58,19 +58,20 @@ h3{
     font-style: normal;
 }
 
-button{
+.button{
     margin: 25px;
     color: white;
     background-color: black;
     height: 50px;
+    width: 250px;
     border-radius: 20px;
 }
 
-button p{
+.button p{
     font-weight: 500;
 }
 
-button:hover{
+.button:hover{
     background-color: salmon;
     cursor: pointer;
 }
